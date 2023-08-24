@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "ab281181-6c40-46d7-92c1-69a1b84af89a",
+		"name": "CurrancyCovarge_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28166535"
+	},
+	"item": [
+		{
+			"name": "Request1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://v6.exchangerate-api.com/v6/a233a0bf8f3a35e7b675ca52/latest/USD",
+					"protocol": "https",
+					"host": [
+						"v6",
+						"exchangerate-api",
+						"com"
+					],
+					"path": [
+						"v6",
+						"a233a0bf8f3a35e7b675ca52",
+						"latest",
+						"USD"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://v6.exchangerate-api.com/v6/a233a0bf8f3a35e7b675ca52/latest/USD",
+					"protocol": "https",
+					"host": [
+						"v6",
+						"exchangerate-api",
+						"com"
+					],
+					"path": [
+						"v6",
+						"a233a0bf8f3a35e7b675ca52",
+						"latest",
+						"USD"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
